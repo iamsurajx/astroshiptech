@@ -31,7 +31,7 @@ export default function Hero() {
       <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
         
         {/* Primary */}
-        <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-full text-sm font-medium transition">
+        <button id="hero" className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-full text-sm font-medium transition">
           Let's Talk Tech
         </button>
 

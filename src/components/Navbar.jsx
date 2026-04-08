@@ -38,9 +38,9 @@ export default function Navbar() {
 
       {/* Desktop Menu */}
       <div className="hidden md:flex gap-8 text-gray-400 font-semibold">
-        <button onClick={() => handleNavClick("work")}>Our Work</button>
         <button onClick={() => handleNavClick("services")}>Services</button>
         <button onClick={() => handleNavClick("whyus")}>Why Us</button>
+        <button onClick={() => handleNavClick("work")}>Our Work</button>
         <button onClick={() => navigate("/career")}>Career</button>
       </div>
 
