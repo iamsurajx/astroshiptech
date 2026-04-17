@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar"; // adjust path
+import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Career from "./pages/Career";
 import Work from "./sections/Work";
@@ -8,7 +8,7 @@ import ProjectDetails from "./pages/ProjectDetails";
 function Layout({ children }) {
   return (
     <>
-      <Navbar />
+      <Navbar />   {/* <-- YE UNCOMMENT KARO */}
       {children}
     </>
   );

@@ -22,3 +22,20 @@
 .animate-scroll-right {
   animation: scroll-right 20s linear infinite;
 }
+
+@import "tailwindcss";
+
+@theme {
+  --color-red: #ff0033;
+  --color-dark: #000000;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-25px); }
+}
+
+@keyframes glow {
+  0% { text-shadow: 0 0 20px #ff0033; }
+  100% { text-shadow: 0 0 40px #ff0033, 0 0 70px #ff0033; }
+}
