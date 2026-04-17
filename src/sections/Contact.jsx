@@ -114,7 +114,7 @@ export default function Contact() {
             <span className="relative z-10 tracking-wide">{loading ? "SENDING..." : sent ? "SENT ✓" : "SEND MESSAGE →"}</span>
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -skew-x-12 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
           </button>
-          {sent && <p className="text-green-400 text-sm mt-3 text-center">Thanks! Message aa gaya hai, 24h me reply karenge.</p>}
+          {sent && <p className="text-green-400 text-sm mt-3 text-center">Thanks! we'll reply within 24 hours.</p>}
         </form>
       </div>
     </section>
