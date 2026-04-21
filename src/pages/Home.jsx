@@ -3,6 +3,7 @@ import Services from "../sections/Services";
 import WhyUs from "../sections/WhyUs";
 import Work from "../sections/Work";
 import Contact from "../sections/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
