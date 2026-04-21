@@ -17,9 +17,9 @@ export default function Footer() {
               Design, build, and scale digital products. Remote-first team based in Delhi, India.
             </p>
             <div className="mt-6 space-y-1 text-sm">
-              <p>Operated by <span className="text-zinc-300">[Your Full Name]</span></p>
+              <p>Operated by <span className="text-zinc-300">WebNirmit & Team</span></p>
               <p>Delhi, India</p>
-              <p><a href="mailto:hello@webnirmit.com" className="hover:text-white transition-colors">hello@webnirmit.com</a></p>
+              <p><a href="mailto:work.webnirmit@gmail.com" className="hover:text-white transition-colors">work.webnirmit@gmail.com</a></p>
             </div>
           </div>
 
